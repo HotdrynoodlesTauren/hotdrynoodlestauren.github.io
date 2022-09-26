@@ -4,5 +4,23 @@
   },
   "devDependencies": {
     "eslint": "^8.24.0"
-  }
+  },
+  "name": "personal-site",
+  "description": "Hi there👋🏻, I am Yi! I am a software development engineer based in SF Bay Area. I am a programmer but I also have backgrounds of architecture and Human-Computer Interactions, I love to explore and create apps, arts and designs.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HotdrynoodlesTauren/Personal-Site.git"
+  },
+  "keywords": [],
+  "author": "Yi Zhou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HotdrynoodlesTauren/Personal-Site/issues"
+  },
+  "homepage": "https://github.com/HotdrynoodlesTauren/Personal-Site#readme"
 }
