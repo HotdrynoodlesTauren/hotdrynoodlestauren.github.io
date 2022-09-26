@@ -1,0 +1,273 @@
+/* '*' means for all tags */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* 清除list小圆点 */
+li {
+    list-style: none;
+}
+/* 清除a下划线 a is the anchor tag used for giving external links*/
+a {
+    text-decoration: none;
+}
+
+.clearfix::before, .clearfix::after {
+    content: "";
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
+img.cat{
+    position: absolute;
+}
+.transition-swipe {
+    transition: 500ms;
+    transform: translateY(0);
+    transform-origin: up;
+}
+html.is-animating .transition-swipe {
+    transition: 350ms;
+    transform: translateY(100%);
+}
+html.isleaving .transition-swipe {
+    transition: 150ms;
+    transform: translateY(50%);
+}
+/* 版心 */
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+/* set header */
+.header {
+    height: 60px;
+    background-color: rgb(7,32,70);
+}
+h1 {
+    float:left
+}
+h1 a.logo{
+    float: left;
+    /* display: block; */
+    /* padding: 0 20px; */
+    height: 60px;
+    line-height: 60px;
+}
+h1 a.name {
+    float: right;
+    /* display: block; */
+    color: white;
+    padding: 0 15px;
+    /* height: 60px; */
+    line-height: 60px;
+    font-family:helvetica;
+}
+
+/* set navigation */
+.nav {
+    float: right;
+    height:60px;
+}
+/* set navigation list */
+.nav li {
+    float: left;
+    /* margin-right: 10px; */
+}
+/* set navigation list hyperlinks */
+.nav li a {
+    display: block;
+    /* height: 60px; */
+    line-height: 60px;
+    padding: 0 20px;
+    /* font: 1em sans-serif; */
+    font-size: 18px;
+    color: white;
+    font-family:helvetica;
+}
+
+div.header a:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.banner {
+    height: 450px;
+    background-color: rgb(7, 32, 70);
+}
+.banner .wrapper {
+    height:450px;
+    width:1000px;
+    padding: 100px 100px;
+    display: flexbox;
+}
+.banner .wrapper h2{
+    font-size: 48px;
+    font-weight: bolder;
+    font-family: helvetica;
+    color: white;
+    margin: 5px;
+}
+.banner .wrapper p{
+    font-size: 22px;
+    color: white;
+    margin: 10px;
+    font-family: helvetica;
+}
+.about {
+    height: auto;
+    background-color: white;
+}
+.about .wrapper {
+    height: auto;
+    width: 1000px;
+    padding: 70px 100px;
+}
+.about .wrapper div{
+    height: 250px;
+    width: 250px;
+    margin: 0 auto;
+}
+.about .wrapper img {
+    border-radius: 50%;
+}
+.about .wrapper h2 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: helvetica;
+    color: black;
+    margin: 40px 15px;
+}
+.about .wrapper p {
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 28px;
+    color: black;
+    margin: 15px;
+    font-family: helvetica;
+}
+.about strong{
+    font-weight: 400;
+}
+.subnav {
+    height: 150px;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 60px 250px;
+    display: flex;
+}
+.subnav li a {
+    height: 30px;
+    width: 130px;
+    margin: 0 18px;
+    display: block;   
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 100;
+    color: black;
+    font-family: helvetica;
+    text-align: center;
+    box-shadow: 0 0 7px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+.subnav li.cur a {
+    color: white;
+    background-color: rgb(7,32,70);
+}
+.subnav li a:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+div.blank {
+    height: 50px;
+}
+div.content {
+    height: 600px;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 70px 70px;
+    box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.3);
+    display: flex;
+}
+div.content div.blank {
+    width: 40px;
+}
+div.content div.img-wide {
+    width: 540px;
+}
+div.content div.text-wide {
+    width: 260px;
+}
+div.content div.img-narrow {
+    width: 400px;
+} 
+div.content div.text-narrow {
+    width: 380px;
+}
+
+div.content div p {
+    font-size: 20px;
+    font-family: helvetica;
+    font-weight: lighter;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+h3 {
+    font-size: 36px;
+    font-family: helvetica;
+    font-weight: 600;
+    line-height: 55px;
+    margin-bottom: 5px;
+}
+h4 {
+    font-size: 20px;
+    font-family: helvetica;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+div.content div a {
+    height: 30px;
+    width: 130px;
+    display: block;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 100;
+    color: black;
+    font-family: helvetica;
+    text-align: center;
+    box-shadow: 0 0 7px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+
+div div a:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    height: 60px;
+    background-color: rgb(7, 32, 70);
+}
+.footer .wrapper {
+    height: 60px;
+    font-size: 12px;
+    line-height: 60px;
+    color: white;
+}
+.footer .copyright {
+    float: left;
+}
+.footer .contact {
+    float: right;
+    display: flex;
+    margin: 15px 0;
+}
+.footer .contact img {
+    margin: 0 5px 0 15px;
+}
+.footer .contact p {
+    line-height: 30px;
+    color: white;
+}

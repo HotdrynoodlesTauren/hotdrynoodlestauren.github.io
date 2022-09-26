@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "swup": "^2.0.19"
+  },
+  "devDependencies": {
+    "eslint": "^8.24.0"
+  }
+}
