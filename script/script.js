@@ -1,5 +1,4 @@
-// I don't think this is an error as the tutorial told me to just put this exact same line here and it worked
-// I suppose it's used in html files
+// eslint-disable-next-line no-unused-vars, no-undef
 const swup = new Swup()
 
 var pic = document.querySelector('img.cat')
