@@ -8,7 +8,7 @@ https://johnguerra.co/classes/webDevelopment_fall_2022/
 # Project Objective
 This is my personal portfolio site including projects I have worked on in various disciplines.
 # Design Documents
-Presentation/Design Document.pdf
+[Presentation/Design Document.pdf](https://github.com/HotdrynoodlesTauren/hotdrynoodlestauren.github.io/blob/44db846546927c56d45d83f09c59a3347b5733c9/Presentation/Design%20Document.pdf)
 # Presentation
 https://docs.google.com/presentation/d/1JZtLLuKGpZ1KfQy_y-up-TR0SJAlMT6dC3C74hZJD44/edit#slide=id.g15930e53057_0_168
 # Instructions to build
