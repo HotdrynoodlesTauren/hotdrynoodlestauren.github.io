@@ -7,9 +7,8 @@ https://yi-zhou.herokuapp.com/index.html
 https://johnguerra.co/classes/webDevelopment_fall_2022/
 # Project Objective
 This is my personal portfolio site including projects I have worked on in various disciplines.
-# Design Mockups
-https://github.com/HotdrynoodlesTauren/hotdrynoodlestauren.github.io/blob/a1da8ad1c551580f1ea7024cfacebcfbb0502901/Presentation/Desktop%20-%201.png
-https://github.com/HotdrynoodlesTauren/hotdrynoodlestauren.github.io/blob/a1da8ad1c551580f1ea7024cfacebcfbb0502901/Presentation/Desktop%20-%202.png
+# Design Documents
+Presentation/Design Document.pdf
 # Presentation
 https://docs.google.com/presentation/d/1JZtLLuKGpZ1KfQy_y-up-TR0SJAlMT6dC3C74hZJD44/edit#slide=id.g15930e53057_0_168
 # Instructions to build
