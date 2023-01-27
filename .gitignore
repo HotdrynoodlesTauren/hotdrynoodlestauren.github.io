@@ -1,4 +1,4 @@
-node_modules
-images
-Presentation
+/node_modules
+/images
+/Presentation
 *.mkv
